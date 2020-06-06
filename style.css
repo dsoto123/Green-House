@@ -1,0 +1,161 @@
+body{
+	font-family: 'Nunito', sans-serif;
+}
+header{
+ 	background: white;
+}
+.menu-superior{
+
+	/*color:#4C4C4C;*/
+	font-size: 15px;
+	height: 40px;
+}
+.menu-superior a{
+	text-decoration: none;
+	color: #212529;
+
+}
+.telefono{
+	
+}
+.telefono p{
+	margin: 0;
+	padding: 0;
+	
+}
+.telefono p a{
+	/*color: #009FE9;*/
+	font-size: 13px;
+}
+.redes-sociales{
+	font-size: 20px;
+}
+.redes-sociales a{
+	margin: 0;
+	padding: 0;
+}
+.fa-facebook{
+
+	/*color:#4267B2;*/
+}
+.fa-youtube{
+	/*color:#FF0000;*/
+}
+.fa-bars{
+	display: none;
+	color: black;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 5px;
+}
+.menu-inferior{
+	/*background: green;*/
+
+	margin: 0;
+	padding: 0;
+	height: 80px;
+}
+.logo{
+	width: 200px;
+}
+.list-menu{
+	margin: 0;	
+}
+.list-menu li{
+	list-style: none;
+	padding-left:  20px;
+}
+.list-menu li a{
+	text-decoration: none;
+	color:#0083C1;
+}
+.slider{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.slider-container img{
+	height: 500px;
+
+	
+}
+.separador{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+}
+.separador-container	{
+	height: 100px;
+	width: 100vw;
+	overflow: hidden;
+
+}
+.separador-container svg{
+	height: 100%;
+	width: 100%;
+}
+.separador-container svg path{
+	stroke: none; 
+	fill: #D3D3D3;
+}
+.conocenos{
+	background: #D3D3D3;
+
+}
+.conocenos-container{
+		padding: 50px;
+} 
+.conocenos .container-derecha img{
+	width: 200px;
+	
+}
+.container-izquierda h1{
+	color:#0083C1;
+}
+.particion{
+	height: 500px;
+}
+.imagen-servicios{
+	height: 200px;
+	padding: 20px;
+}
+.clientes{
+	background: #D3D3D3;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Mobile*/
+
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  .li-menu {
+    display: none;
+  }
+  .fa-bars{
+  	display: block;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .li-menu {
+    display: none;
+  }
+  .fa-bars{
+  	display: block;
+  }
+}
